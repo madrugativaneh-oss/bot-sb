@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-group-bot",
+  "version": "1.0.0",
+  "description": "Bot de grupo WhatsApp: comandos, moderação, dias de uso por grupo e detector de comprovativos M-Pesa / e-Mola",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "check": "node --check bot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "tesseract.js": "^5.1.0",
+    "whatsapp-web.js": "^1.26.0"
+  },
+  "license": "ISC"
+}
